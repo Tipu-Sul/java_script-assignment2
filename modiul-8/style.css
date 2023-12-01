@@ -1,0 +1,23 @@
+
+
+.empty{
+  
+  text-align: center;
+  padding: 5px;
+}
+.vrf{
+  width: 25px;
+  height: 25px;
+}
+.custom-size{
+  width: 35px !important;
+  height: 35px !important;
+}
+.time{
+  position: relative;
+    bottom: 10px;
+    right: 10px;
+    
+    color: white;
+    font-size: 16px;
+}

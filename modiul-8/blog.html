@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+          Discuss the scope of `var`, `let`, and `const`?
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse show"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong>"var", "let", "const" both of them are keyword in Java Script by which we can declare variables name</strong><br>
+            <strong>var :</strong> var is a functional scope variables declaration. var can be accessed in the same function from any
+             scope. Globally declared var can be accessed any  where of code and  allows redeclaration of variables. <br> 
+            <strong>let</strong> let is a block scope variable declaration .It can be accessed from only the same scope.
+            it allow reassign but not redeclare. <br>
+            <strong>const</strong> const is also a block scope  variables declaration.It not allow reassign.Generally const are 
+            use to declare variables, which are no need to change like array, object. <br>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo"
+            aria-expanded="false"
+            aria-controls="collapseTwo"
+          >
+            what is the use case of null and undefinded ? 
+          </button>
+        </h2>
+        <div
+          id="collapseTwo"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong>The use case of null and undefinded:</strong> 
+            <br>
+            <strong>Null :</strong> If we declare a variable but don't assign 
+            any value, then if we want to print the value of this variable, then we get null.
+            <br>
+            <strong>undefinded : </strong> If we try to print a variable but we never declare 
+            it in the scope or code block then the result come as undefinded.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseThree"
+            aria-expanded="false"
+            aria-controls="collapseThree"
+          >
+            What do you mean by REST API?
+          </button>
+        </h2>
+        <div
+          id="collapseThree"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+           <strong>Relational State Transfer Application Programming Interface</strong> is a 
+           way of create web service .API is a type of recource which contain the url of the product 
+           or person by which we can represent data about product or person in web service through the client request.
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- sctipt -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

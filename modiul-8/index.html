@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+       <div class="navbar-container row bg-primary justify-content-center align-items-center m-auto flex-wrap">
+         <div class="col-md-4 m-auto p-3">
+          <img src="./PHero-Tube/Logo.png" alt="Logo">
+         </div>
+         <div id="sort-btn" class="col-md-4 m- p-2">
+          <button class="btn btn-outline-light text-black" onclick="SortView(1000)">Sort by view</button>
+         </div>
+         <div class="col-md-4 m-auto p-2">
+         <a href="./blog.html" class="text-decoration-none border-danger bg-danger text-black blog_style" target="_blank">Blog </a>
+         </div>
+       </div>
+      </nav>
+    </header>
+<hr class="m-5 ">
+
+<div id="CatagoryButtons" class="d-flex gap-2 mt-5 flex-wrap btn-container align-items-center justify-content-center">
+  <button id="All" class="btn btn-outline-primary" onclick="All(1000)">All</button>
+  <button id="Music" class="btn btn-outline-primary" onclick="All(1001)">Music</button>
+  <button id="Comedy" class="btn btn-outline-primary" onclick="All(1003)">Comedy</button>
+  <button id="Drawing" class="btn btn-outline-primary" onclick="All(1005)">Drawing</button>
+   
+</div>
+<p id="catagory-id"></p>
+<div id="mainContainer" class="row">
+
+</div>
+<p><strong></strong></p>
+
+
+    <!-- <div class="empty">
+      <img id="emptyImg" class="offIm" style="display: block;" src="./PHero-Tube/Icon.png" alt="Icon">
+      <p id="off">Opps! Sorry, There is no content</p>
+    </div> -->
+
+    <!-- javascript -->
+   
+  
+    <!-- <script src="fake.js"></script> -->
+    <script src="app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
